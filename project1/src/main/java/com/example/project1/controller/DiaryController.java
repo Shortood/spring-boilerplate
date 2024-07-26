@@ -23,7 +23,7 @@ public class DiaryController {
     public ResponseDto<?> createDiary(@UserId Long id, @RequestBody @Valid DiaryRequestDto requestDto) {
         return ResponseDto.ok(diaryService.createDiary(id, requestDto));
     }
-
+//test
     //일기 상세 일기
     @GetMapping("/{diaryId}")
     public ResponseDto<?> readDiaryDetail(@PathVariable("diaryId") Long diaryId) {
