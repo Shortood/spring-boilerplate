@@ -86,7 +86,7 @@ public class DiaryService {
 
         return Boolean.TRUE;
     }
-
+    //test
     public Boolean deleteDiary(Long id, Long diaryId) {
         Diary diary = null;
 
